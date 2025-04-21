@@ -5,7 +5,7 @@ import numpy as np
 # Load the pre-trained Haar cascade for face detection
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
-url = 'http://192.168.1.129:80/capture'  # Replace with your ESP32-CAM IP
+url = 'http://192.168.1.129:80/capture'  # ESP32-CAM IP
 
 cv2.namedWindow("Face Detection", cv2.WINDOW_AUTOSIZE)
 
